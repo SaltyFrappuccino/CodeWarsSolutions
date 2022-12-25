@@ -1,0 +1,13 @@
+.idea
+idea
+/.idea
+
+mypy_cache
+.mypy_cache
+/.mypy_cache
+.vscode
+vscode
+/vscode
+/.vscode 
+/idea
+/mypy_cache
