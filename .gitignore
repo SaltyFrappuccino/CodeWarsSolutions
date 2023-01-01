@@ -11,6 +11,10 @@ vscode
 /.vscode 
 /idea
 /mypy_cache
+.vs 
+/.vs 
+./vs 
+/vs 
 
 csharp/csharp/csharp/.idea/*
 csharp/csharp/csharp/.idea 
