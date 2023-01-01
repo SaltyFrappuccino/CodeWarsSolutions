@@ -11,3 +11,13 @@ vscode
 /.vscode 
 /idea
 /mypy_cache
+
+csharp/csharp/.idea/*
+csharp/csharp/.idea 
+csharp/csharp/bin
+csharp/csharp/obj
+csharp/csharp/bin/*
+csharp/csharp/obj/*
+csharp/csharp/csharp.sln
+csharp/csharp/csharp.csproj
+csharp/csharp/Program.cs
