@@ -8,16 +8,16 @@ mypy_cache
 .vscode
 vscode
 /vscode
-/.vscode 
+/.vscode
 /idea
 /mypy_cache
-.vs 
-/.vs 
-./vs 
-/vs 
+.vs
+/.vs
+./vs
+/vs
 
 csharp/csharp/csharp/.idea/*
-csharp/csharp/csharp/.idea 
+csharp/csharp/csharp/.idea
 csharp/csharp/csharp/bin
 csharp/csharp/csharp/obj
 csharp/csharp/csharp/bin/*
@@ -25,3 +25,6 @@ csharp/csharp/csharp/obj/*
 csharp/csharp/csharp/csharp.sln
 csharp/csharp/csharp/csharp.csproj
 csharp/csharp/csharp/Program.cs
+
+go/.idea
+/go/.idea
