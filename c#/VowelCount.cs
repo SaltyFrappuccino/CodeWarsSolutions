@@ -4,11 +4,18 @@ namespace csharp;
 
 public class VowelCount
 {
-    public static int GetVowelCount(string str)
+    public static int GetVowelCount(string s)
     {
+        char[] empt = {};
+
+        if (s == null || s == "" || s == " ")
+        {
+            return empt;
+        }
+
         int vowelCount = 0;
         char[] vowels = { 'a', 'e', 'i', 'o', 'u' };
-        for (int i = 0; i < str.Length; i++)
+        for (int i = 0; i < s.Length; i++)
         {
             if (vowels.Contains(str[i])) {vowelCount += 1;}
         }
