@@ -1,0 +1,7 @@
+/.vs
+/.vscode
+/.fleet
+/.code
+/.ide
+/.idea 
+*.exe
