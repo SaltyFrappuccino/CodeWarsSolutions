@@ -20,9 +20,6 @@ def point_in_vector(point, vector):
         if 0 <= parameter <= 1:
             distance_squared = ((x1 + parameter * (x2 - x1)) - x) ** 2 + ((y1 + parameter * (y2 - y1)) - y) ** 2
 
-            return distance_squared <= 0.001
+            return distance_squared <= 10**-10
         else:
             return False
-
-
-print(point_in_vector([1,1], [[0, 0], [3, 3]]))
