@@ -2,7 +2,6 @@
 
 import java.util.*;
 
-
 public class Paintfuck {
     public static String interpreter(String code, int iterations, int width, int height) {
         int[][] grid = new int[height][width];
